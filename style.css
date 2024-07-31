@@ -121,9 +121,13 @@ main h3 {
 }
 
 /* Table */
-table tr, table td {
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+table td {
   text-align: left;
-  width: 280px;
 }
 
 /* Slideshow container */
@@ -294,4 +298,45 @@ text-align: center;
   header nav li {
     padding: 10px;
   }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size:30px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  main h3 {
+    float: none;
+    text-align: center;
+  }
+  
+  .date {
+    float: none;
+  }
+
+  .section li {
+    text-align: justify;
+  } 
+
+  footer #foot {
+    width: 100%;
+  }
+  
+  table td {
+    text-align: center;
+  }
+  
 }
