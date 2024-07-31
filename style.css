@@ -298,9 +298,7 @@ text-align: center;
   header nav li {
     padding: 10px;
   }
-}
-
-@media (max-width: 600px) {
+  
   .container {
     width: 100%;
   }
