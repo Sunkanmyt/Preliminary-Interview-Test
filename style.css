@@ -332,3 +332,12 @@ text-align: center;
     width: 100%;
   }
 }
+
+@media (max-width: 600px) {
+  .items {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+}
