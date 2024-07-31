@@ -120,13 +120,14 @@ main h3 {
   padding-bottom: 25px;;
 }
 
-/* Table */
-table {
-  width: 100%;
-  table-layout: fixed;
+/* Grid */
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  gap: 10px;
 }
 
-table td {
+.items div {
   text-align: left;
 }
 
@@ -330,9 +331,4 @@ text-align: center;
   footer #foot {
     width: 100%;
   }
-  
-  table td {
-    text-align: center;
-  }
-  
 }
