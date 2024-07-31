@@ -242,7 +242,7 @@ footer p {
 padding: 30px 30px 20px 30px;
 text-align: center;
 }
-
+/* media queries */
 @media (max-width: 1600px) {
   h1 {
     text-align: center;
