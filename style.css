@@ -258,23 +258,11 @@ text-align: center;
   }
 }
 
-@media (max-width: 1080px) {
-  footer .contacts {
-    display: block;
-  }
-
-  footer .contact{
-    width: 100%;
-  }
-}
-
-@media (max-width: 1360px) {
+@media (max-width: 1450px) {
   header nav li {
     padding: 50px;
   }
-}
 
-@media (max-width: 960px) {
   header nav li {
     padding: 20px;
   }
@@ -294,11 +282,21 @@ text-align: center;
   }
 }
 
+@media (max-width: 1080px) {
+  footer .contacts {
+    display: block;
+  }
+
+  footer .contact{
+    width: 100%;
+  }
+}
+
 @media (max-width: 700px) {
   header nav li {
     padding: 10px;
   }
-  
+
   .container {
     width: 100%;
   }
